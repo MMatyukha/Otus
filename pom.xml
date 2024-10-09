@@ -27,6 +27,8 @@
             <jsoup.version>1.17.2</jsoup.version>
             <browser.version>109.0.5414.168</browser.version>
             <browser.name>chrome</browser.name>
+            <cucumber.version>5.5.0</cucumber.version>
+
 
             <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
 
@@ -96,6 +98,21 @@
                 <groupId>org.jsoup</groupId>
                 <artifactId>jsoup</artifactId>
                 <version>${jsoup.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>${cucumber.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-junit-platform-engine</artifactId>
+                <version>${cucumber.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-guice</artifactId>
+                <version>${cucumber.version}</version>
             </dependency>
         </dependencies>
 
